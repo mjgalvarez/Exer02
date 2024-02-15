@@ -1,0 +1,151 @@
+/* Notes
+display: flex; for making flex box
+*/
+
+body{
+    background: #eee;
+}
+
+/* the whole box */
+.wrapper{
+    width: 95%;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+/* FIRST BOX */
+
+.flex-container{
+    height: 250px;
+    min-width: 100px;
+    position: relative; /* Set the container's position */
+}
+
+h1{
+    font-family: monospace;
+
+}
+.one{
+    height: 80px;
+    border-top: 2px solid black; /* Edit only the top border */
+    border-right: 2px solid black; /* Example: Edit only the right border */
+    border-bottom: 2px solid black; /* Example: Edit only the bottom border */
+    border-left: 2px solid black; /* Example: Edit only the left border */
+    padding-top: 0.1rem; /* Adjust the top padding */
+    padding-bottom: 0.1rem; /* Adjust the bottom padding */
+}
+
+/* SECOND BOX */
+
+/* self photo */
+img {
+    position: absolute; /* Set the photo's position */
+    top: 150px; /* Adjust the distance from the top */
+    left: 540px; /* Adjust the distance from the left */
+}
+
+/* folders */
+.flex-containertwo{
+    display: flex;
+    justify-content: space-evenly;
+    height: 80vh;
+    border-right: 2px solid black; /* Example: Edit only the right border */
+    border-left: 2px solid black; /* Example: Edit only the left border */
+    align-items: end;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#box1{
+    background-color: #03045e;
+}
+
+#box2{
+    background-color: #03045e;
+}
+
+#box3{
+    background-color: #03045e;
+}
+
+#box4{
+    background-color: #03045e;
+}
+
+/* skills and biography */
+.flex-containerthree{
+    display: flex;
+    justify-content: space-evenly;
+    height: 70vh;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black; 
+    border-left: 2px solid black; 
+    align-items: center;
+}
+
+.box-{
+    width: 300px;
+    height: 300px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#box5{
+    background-color: #03045e;
+}
+
+#box6{
+    background-color: #03045e;
+}
+
+.text-inside{
+    font-family: monospace;
+    font-size: large;
+    color: white;
+}
+
+/* THIRD BOX */
+
+/* footer */
+.flex-containerfour{
+    display: flex;
+    height: 20vh;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black; 
+    border-left: 2px solid black; 
+    flex-wrap: wrap;
+}
+
+.box--{
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#box7{
+    width: 256px;
+    height: 130px;
+    background-color: #03045e;
+}
+
+#box8{
+    width: 700px;
+    height: 130px;
+    background-color: #03045e;
+}
+
+.text-insideone{
+    font-family: monospace;
+    font-size: small;
+    color: white;
+    text-align: left;
+    font-size: medium;
+}

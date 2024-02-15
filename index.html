@@ -1,15 +1,54 @@
 <!DOCTYPE html>
-
-<html>
+<!---->
+ <html lang="en"> <!-- primary language is english -->
   <head>
-    <title>Sample Web Page</title>
+    <title>Cmsc 100 Exercise 2</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-
   <body>
-    <h1>This is a heading</h1>
-    <p>This is the first paragraph of text</p>
-    <hr />
-    <p>This is the second paragraph of text</p>
+    <div class="wrapper">
+
+      <div class="flex-container one">
+        <!-- lagyan ko ng flexbox (About, Home)-->
+        <h1> Moniq Josifin G. Alvarez</h1>
+      </div>
+      
+        <!-- photo -->
+        <img src="1x1.jpg" height="200">
+        <!-- projects -->
+        <div class="flex-containertwo">
+          <div class="box" id="box1"></div>
+          <div class="box" id="box2"></div>
+          <div class="box" id="box3"></div>
+          <div class="box" id="box4"></div>
+        </div>
+        <div class="flex-containerthree">
+          <div class="box-" id="box5">
+            <p class="text-inside" id="skill1">Vue.js</p>
+            <p class="text-inside" id="skill2">React.js</p>
+            <p class="text-inside" id="skill3">CSS</p>
+            <p class="text-inside" id="skill4">Graphics Design</p>
+          </div>
+          <div class="box-" id="box6">
+            <p class="text-inside">Hi! I'am Moniq born on a cold weather in December. Introvert but can socialize. I enjoy journaling.
+              Tsuki adventure 2 and Tsuki Odyssey are the current mobile game I love. I started studying here in Los Banos since junior high school.
+              But I do not live in Los Banos and it is an hour ride from my home to Los Banos.
+            </p>
+          </div>
+        </div>
+      
+        <div class="flex-containerfour">
+          <div class="box--" id="box7"></div>
+          <div class="box--" id="box8">
+            <p class="text-insideone" id="footer1">Footer Contents</p>
+            <p class="text-insideone" id="footer2">Logo, Address / Contact Information, and Personal Website</p>
+            <p class="text-insideone" id="footer3">Copyright Information</p>
+            <p class="text-insideone" id="footer4">Back to Top</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
   </body>
 
 </html>

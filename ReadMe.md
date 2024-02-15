@@ -12,5 +12,6 @@ Steps on how to create GitHub page:
 6. wait for a moment then refresh
 7. there should be new section at the top "your site is live at <link>"
 
-What are your key takeaways from this exercise?
-
+Key takeaways:
+- I had a hard time deciding on the class and id. At least now I have a bit of experience I would improve more. 
+- I have learn how to use flexbox but still I hope instead of providing boxes, I would be able to use image instead.
