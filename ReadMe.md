@@ -1,7 +1,7 @@
 Moniq Josifin G. Alvarez
 BS Computer Science
 
-<Live Website Link>
+https://mjgalvarez.github.io/Exer02/
 
 Steps on how to create GitHub page:
 1. go to the repository where you want to create the page
